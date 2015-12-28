@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21EE15AD1C31024100E2B015 /* 02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21EE15AA1C31024100E2B015 /* 02.mp3 */; };
+		21EE15AE1C31024100E2B015 /* 03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21EE15AB1C31024100E2B015 /* 03.mp3 */; };
+		21EE15AF1C31024100E2B015 /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21EE15AC1C31024100E2B015 /* 01.mp3 */; };
 		3DF0B7CD1C30C98D0071CCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0B7CC1C30C98D0071CCE8 /* AppDelegate.swift */; };
 		3DF0B7CF1C30C98D0071CCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0B7CE1C30C98D0071CCE8 /* ViewController.swift */; };
 		3DF0B7D21C30C98D0071CCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0B7D01C30C98D0071CCE8 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21EE15AA1C31024100E2B015 /* 02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 02.mp3; sourceTree = "<group>"; };
+		21EE15AB1C31024100E2B015 /* 03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03.mp3; sourceTree = "<group>"; };
+		21EE15AC1C31024100E2B015 /* 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01.mp3; sourceTree = "<group>"; };
 		3DF0B7C91C30C98D0071CCE8 /* reproductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reproductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF0B7CC1C30C98D0071CCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF0B7CE1C30C98D0071CCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				3DF0B7CC1C30C98D0071CCE8 /* AppDelegate.swift */,
+				21EE15AC1C31024100E2B015 /* 01.mp3 */,
+				21EE15AA1C31024100E2B015 /* 02.mp3 */,
+				21EE15AB1C31024100E2B015 /* 03.mp3 */,
 				3DF0B7CE1C30C98D0071CCE8 /* ViewController.swift */,
 				3DF0B7D01C30C98D0071CCE8 /* Main.storyboard */,
 				3DF0B7D31C30C98D0071CCE8 /* Assets.xcassets */,
@@ -229,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EE15AF1C31024100E2B015 /* 01.mp3 in Resources */,
 				3DF0B7D71C30C98D0071CCE8 /* LaunchScreen.storyboard in Resources */,
 				3DF0B7D41C30C98D0071CCE8 /* Assets.xcassets in Resources */,
 				3DF0B7D21C30C98D0071CCE8 /* Main.storyboard in Resources */,
+				21EE15AD1C31024100E2B015 /* 02.mp3 in Resources */,
+				21EE15AE1C31024100E2B015 /* 03.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				3DF0B7F31C30C98D0071CCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF0B7F41C30C98D0071CCE8 /* Build configuration list for PBXNativeTarget "reproductorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				3DF0B7F61C30C98D0071CCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF0B7F71C30C98D0071CCE8 /* Build configuration list for PBXNativeTarget "reproductorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				3DF0B7F91C30C98D0071CCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
